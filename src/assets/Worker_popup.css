@@ -1,0 +1,253 @@
+.worker_popup_cont{
+    width: 769px;
+    height: 100%;
+    background-color: #101828;
+    position: absolute;
+    top: 0;
+    /* opacity: 0.95; */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid #70707029;
+}
+
+.user_b{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.user_b_text_cont{
+    margin-left: 20px;
+}
+
+.worker_popup_header{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+    margin-right: 140px;
+    margin-top: 37px;
+    gap: 20px;
+}
+
+.user_b_text_main{
+    color:white;
+    font-size: 20px;
+    font-family: n_bold;
+}
+
+.user_b_text_submain{
+    color:white;
+    font-size: 15px;
+    font-family: n_r;
+}
+
+.worker_popup_top_area_right{
+    width: 315px;
+    height: 129px;
+    border-radius: 18px;
+    background-color: #283654;
+    position: relative;
+}
+
+
+.worker_popup_top_area{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.p_details_1{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.p_details_title{
+    color: white;
+    font-size: 15px;
+    font-family: n_bold;
+    position: absolute;
+    right: 50px;
+    top: 13px;
+}
+
+.w_more_icon{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.details_cont_r{
+    color:white;
+    font-size: 12px;
+    font-family: n_r;
+    width: 100px;
+}
+
+.details_cont_b{
+    color:white;
+    font-size: 12px;
+    font-family: n_bold;
+}
+
+.details_cont{
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    margin-top: 8px;
+    margin-right: 50px;
+}
+
+.details_cont_first{
+    margin-top: 43px;
+}
+
+.worker_popup_mid_area{
+    width: 660px;
+    height: 227px;
+    background-color: #283654;
+    border-radius: 18px;
+    margin: 0 AUTO;
+    MARGIN-TOP: 44PX;
+    position: relative;
+}
+
+.docs_box{
+    width: 246px;
+    height: 65px;
+    border-radius: 18px;
+    background-color: #46567E;
+        position: relative;
+}
+
+.download_icon{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.docs_cont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin: 0 auto;
+    align-items: center;
+    margin-right: 48px;
+    padding-top: 50px;
+    flex-direction: row-reverse;
+}
+
+.docs_box_text{
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 16px;
+    color: white;
+    font-size: 12px;
+    font-family: 'n_r';
+}
+
+.docs_box_subtext{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 60px;
+    margin-top: 5px;
+    gap: 9px;
+    color: white;
+    font-size: 10px;
+    font-family: 'n_r';
+}
+
+.worker_popup_bottom_area{
+    width: 660px;
+    height: 471px;
+    border-radius: 18px;
+    background-color: #283654;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.time_grid{
+    margin-top: 55px;
+    margin-left: 25px;
+}
+
+
+.close_icon{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.download_doc_btn{
+    background-color: #283654;
+    color: white;
+    width: 160px;
+    height: 48px;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 24px;
+    background-image: url('./assets/pdf.png');
+    background-repeat: no-repeat;
+    background-position: 93%;
+}
+
+
+.print_doc_btn{
+    background-color: #283654;
+    color: white;
+    width: 130px;
+    height: 48px;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 24px;
+    background-image: url('./assets/print.png');
+    background-repeat: no-repeat;
+    background-position: 91%;
+}
+
+.download_doc_btn_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 25px;
+    margin-top: 90px;
+    margin-right: 80px;
+}
+
+
+.cert_img{
+    margin: 0 auto;
+    display: block;
+    margin-top: 65px;
+}
+
+.zoom_cont{
+    width: 163px;
+    height: 47px;
+    border-radius: 24px;
+    background-color: #707070a6;
+    color: white;
+    font-size: 15px;
+    font-family: 'n_r';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: -56px;
+    position: absolute;
+    left: 101px;
+}
+

@@ -1,0 +1,190 @@
+.sup_info_cont{
+    width: 675px!important;
+    height: 175px!important;
+}
+
+
+.sup_pupop{
+    width: 769px;
+}
+
+.settings_box_line_cont_sup{
+    position: relative;
+    top: 50px;
+}
+
+.settings_box_input_sup{
+    width: 140px;
+    display: flex;
+}
+
+.settings_box_input_sup_type{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: n_bold;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.settings_box_input_sup_type_site{
+
+    cursor: pointer;
+    background-image: url(./assets/building.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+
+.settings_box_input_sup_type_worker{
+    background-image: url(./assets/user_g.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    color: #ffffff82;
+    cursor: pointer;
+}
+
+
+
+.type_selected{
+    background-color: white;
+    color:#283654;
+        border-radius: 13px;
+}
+.settings_box_input_select{
+    border:1px solid white;
+    background-color: #283654;
+}
+
+.tachmoshet_info_cont_sup{
+    width: 675px;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+
+.top_btn_selected_add{
+   background-color: #707070; 
+   border: 0;
+}
+
+.sup_type_options{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 17px;
+    position: relative;
+    top: 55px;
+    margin-right: 50px;
+}
+
+.sup_comments_textarea{
+    width: 435px;
+    height: 82px;
+    border-radius: 13px;
+    background-color: #101828;
+    border: 0;
+    color:white;
+    direction: rtl;
+}
+
+.tachmoshet_info_cont_fix_sup{
+    width: 675px;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 12px;
+}
+
+
+.sup_comments_textarea_desc {
+    width: 435px;
+    height: 53px;
+    border-radius: 13px;
+    background-color: #101828;
+    border: 0;
+    color:white;
+    direction: rtl;
+}
+
+.fix_obj_one{
+    color: white;
+    font-family: 'n_r';
+    text-align: right;
+    margin-right: 120px;
+}
+
+.save_sup_desc_btn{
+    width: 186px;
+    height: 36px;
+    background-color: white;
+    border-radius: 20px;
+    color:#101828;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 36px;
+}
+
+.save_sup_desc_btn_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 68px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sup_sign_cont{
+    width: 675px;
+    margin-top: 30px;
+}
+
+.save_sup_final_btn{
+    width: 186px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: #902FEC;
+    color:white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px;
+}
+
+.cancel_sup_final_btn{
+    width: 186px;
+    height: 39px;
+    border-radius: 20px;
+    border:1px solid white;
+    color:white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px;
+}
+
+.save_sup_final_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.add_title_input{
+    width: 85%;
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
+
+.close_extra_type{
+    position: absolute;
+    right:5px;
+    top:10px
+}
+
+.top_btn_extra_type{
+    position: relative;
+}

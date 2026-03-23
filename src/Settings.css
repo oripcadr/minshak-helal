@@ -1,0 +1,739 @@
+.search_settings_input{
+    width: 512px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #283654;
+    background-image: url(./assets//search.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 0;
+    text-align: right;
+    padding-right: 10px;
+    position: absolute;
+    right: 245px;
+    top: 130px;
+}
+
+.top_btns_cont_settings{
+    margin-top: 115px;
+    position: relative;
+    right: 25px;
+}
+
+.settings_box_cont{
+    width: 509px;
+    height: 652px;
+    border-radius: 27px;
+    background-color: #101828;
+}
+
+.settings_box_cont_main{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    margin-right: 20px;
+    position: relative;
+    right: 20px;
+    margin-top: 30px;
+}
+
+.settings_box_title{
+    font-size: 15px;
+    font-family: n_bold;
+    color: white;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.settings_box_title_in{
+    font-size: 12px;
+    font-family: n_r;
+    color:white;
+    width: 100px;
+    text-align: right;
+}
+
+.settings_box_input{
+    width: 305px;
+    height: 25px;
+    border-radius: 13px;
+    background-color: #030712;
+    border: 0;
+    text-align: right;
+    color:white;
+    direction: rtl;
+}
+
+.settings_box_line_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 20px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.upload_logo_cont{
+    width: 305px;
+    height: 82px;
+    border-radius: 13px;
+    border: 1px solid #707070;
+}
+
+.upload_logo_text{
+    font-size: 12px;
+    font-family: n_r;
+    color: #ffffff94;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.upload_icon_settings{
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.save_settings_btn{
+    width: 221px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: white;
+    color: #283654;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 36px;
+    margin: 0 auto;
+    margin-top: 225px;
+}
+
+.settings_box_input_s{
+   width: 74px; 
+}
+
+.arrow_s_left{
+    margin-top:10px
+}
+
+.save_settings_btn_2{
+    margin-top: 390px;
+}
+
+.top_btn{
+    cursor: pointer;
+}
+
+.settings_box_cont_l{
+    width: 725px;
+    overflow: auto;
+}
+
+.search_input_s{
+    width: 150px!important;
+    border:0;
+    background-color: #030712;
+}
+
+.top_btn_cont_settings{
+    position: relative;
+    right: 315px;
+    top: 32px;
+}
+
+.table_row_full{
+    width: 56px;
+    height: 23px;
+    background-color: white;
+    border-radius: 12px;
+    color: #283654;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+    line-height: 23px;
+}
+
+.table_row_status_active{
+    width: 56px;
+    height: 23px;
+    background-color: #2ce39836;
+    border-radius: 12px;
+    color: #2CE398;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+    line-height: 23px;
+}
+
+.settings_by_role_cont{
+    width: 484px;
+    height: 36px;
+    background-color: #46557e73;
+    border-radius: 18px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+
+.settings_by_role_text{
+    color: white;
+    font-size: 12px;
+    font-family: n_bold;
+    text-align: right;
+    line-height: 33px;
+    margin-right: 15px;
+    width: 140px;
+}
+
+.slide_settings_cont{
+    width: 34px;
+    height: 17px;
+    background-color: #8F2CE3;
+    border-radius: 9px;
+    z-index: 1;
+}
+
+
+.slide_settings_middle{
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.slide_settings_cont_text{
+    color:white;
+    font-size: 12px;
+    font-family: n_r;
+}
+
+.slide_settings_cont_main{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.settings_add_icon{
+    width: 34px;
+    height: 34px;
+}
+
+.site_cont{
+    width: 256px;
+    height: 373px;
+    border-radius: 18px;
+    background-color: #283654;
+}
+
+.site_bg{
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.site_cont_title{
+    color: white;
+    font-size: 15px;
+    font-family: n_r;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.site_cont_name{
+    font-size: 12px;
+    font-family: n_bold;
+    color: white;
+}
+
+.site_cont_role{
+    font-size: 10px;
+    color:white;
+    font-family: n_r;
+}
+
+.site_cont_name_box{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.site_cont_name_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.site_cont_name_box_main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.neshek_site_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    gap: 9px;
+}
+
+.neshek_site_cont_in{
+    color: white;
+    font-size: 10px;
+    font-family: n_r;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.n_1{
+    width: 24px;
+    height: 24px;
+}
+
+.edit_btn{
+    width: 237px;
+    height: 36px;
+    background-color: #46567E;
+    border-radius: 18px;
+    font-size: 12px;
+    font-family: n_r;
+    color: white;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.site_cont_main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    gap: 39px;
+    margin-right: 25px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.save_settings_btn_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 120px;
+}
+
+.save_settings_btn_site{
+    width: 221px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: white;
+    color: #283654;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 36px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.clean_settings_btn_site{
+    width: 221px;
+    height: 36px;
+    border-radius: 18px;
+    border:1px solid white;
+    color: white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 36px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.logo_img{
+    height: 82px;
+    margin: 0 auto;
+    display: block;
+}
+
+.logo_path_text{
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+}
+
+.add_new_btn_user {
+    width: 130px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #8F2CE3;
+    color: white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.kalibr_settings_cont{
+    width: 368px;
+    height: 652px;
+    border-radius: 27px;
+    background-color: #101828;
+}
+
+.kalibr_settings_cont_top{
+    width: 509px;
+    height: 203px;
+    border-radius: 27px;
+    background-color: #101828;
+    padding-top: 1px;
+}
+
+.kalibr_settings_cont_bottom{
+    width: 509px;
+    height: 429px;
+    border-radius: 27px;
+    background-color: #101828;
+    padding-top: 1px;
+    position: relative;
+}
+
+.kalibr_settings_cont_main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.kaliber_row_cont{
+    width: 280px;
+    height: 36px;
+    background-color: #46567E;
+    border-radius: 18px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 36px;
+    color: white;
+    font-size: 12px;
+    font-family: 'n_r';
+    position: relative;
+    padding-right: 20px;
+}
+
+.close_kaliber{
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+
+.edit_kaliber{
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+.add_kaliber_btn{
+    width: 280px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid #46567E;
+    text-align: right;
+    line-height: 36px;
+    color: white;
+    font-size: 12px;
+    font-family: 'n_r';
+    position: relative;
+    padding-right: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.add_icon_kaliber{
+    position: absolute;
+    left: 5px;
+    height: 28px;
+    width: 28px;
+    top: 4px;
+}
+
+
+.add_icon_kaliber_text{
+    position: absolute;
+    left: 5px;
+    height: 28px;
+    width: 28px;
+    top: 2px;
+    cursor: pointer;
+}
+
+
+.settings_box_subtitle{
+    color: white;
+    font-size: 12px;
+    font-family: 'n_r';
+    text-align: right;
+    direction: rtl;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.tahmoshet_alert_input{
+    width: 282px;
+    height: 25px;
+    border-radius: 13px;
+    background-color: #030712;
+    color: white;
+    border: 0;
+    text-align: right;
+    margin-left: 185px;
+    margin-top: 13px;
+    padding-right: 20px;
+}
+
+
+
+.slide_settings_cont_main_4 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 23px;
+    margin-top: 25px;
+}
+
+.slide_settings_cont_text_4 {
+    color: white;
+    font-size: 12px;
+    font-family: n_bold;
+}
+
+.add_new_neshek_model_btn{
+    width: 129px;
+    height: 28px;
+    background-color: #902FEC;
+    border-radius: 18px;
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    direction: rtl;
+    text-align: center;
+    line-height: 28px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.neshek_c_header_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+.neshek_c_header{
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    width: 150px;
+}
+
+.neshek_c_header_b{
+    color: white;
+    font-size: 12px;
+    font-family: n_bold;
+    width: 150px;
+}
+
+.new_neshek_model_cont{
+    width: 248px;
+    height: 280px;
+    border-radius: 18px;
+    background-color: #283654;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -40px;
+}
+
+.new_neshek_model_input{
+    width: 200px;
+    height: 25px;
+    border-radius: 13px;
+    background-color: #030712;
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: right;
+    padding-right: 15px;
+    border: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.new_neshek_model_title{
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.new_neshek_model_select{
+    width: 200px;
+    height: 28px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: right;
+    padding-right: 15px;
+    background-color: #283654;
+    direction: rtl;
+    margin-left: 22px;
+    margin-top: 5px;
+    
+}
+
+.add_model_btn{
+    width: 100px;
+    height: 28px;
+    border-radius: 18px;
+    background-color: #902FEC;
+    color: white;
+    font-size: 12px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 28px;
+}
+
+.cancel_model_btn{
+    width: 100px;
+    height: 28px;
+    border-radius: 18px;
+    border: 1px solid #46557E;
+    color: white;
+    font-size: 12px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.add_model_btn_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.add_kaliber_btn_input{
+    text-align: right;
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+
+.role_name_select{
+    width: 244px;
+    height: 28px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    background-color: #283654;
+    direction: rtl;
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+.settings_box_cont_l_1{
+    margin-top: 20px;
+}
+
+.settings_box_subtitle_b{
+    color: white;
+    font-size: 12px;
+    font-family: 'n_bold';
+    text-align: right;
+    direction: rtl;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.add_role_input{
+    width: 417px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #030712;
+    border: 0;
+    color: white;
+    direction:rtl
+}
+
+.add_role_btn{
+    width: 95px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #E32D7C;
+    color: white;
+    font-size: 12px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 36px;
+}
+
+.add_role_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.role_cont{
+    width: 570px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: #46557e5c;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'n_r';
+    padding-right: 30px;
+    margin: 0 auto;
+    margin-right: 20px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.trash_w_role{
+    position: absolute;
+    left:30px;
+    cursor: pointer;
+}
+
+.pencil_eq_role{
+    position: absolute;
+    left:65px;
+    cursor: pointer;
+}

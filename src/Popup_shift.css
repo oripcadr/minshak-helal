@@ -1,0 +1,112 @@
+.set_to_all_shift{
+    width: 232px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: #902FEC;
+    color: white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px;
+}
+
+.set_to_k_shift{
+    width: 232px;
+    height: 39px;
+    border-radius: 20px;
+    border:1px solid #902FEC;
+    color: white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px;
+}
+
+.set_to_all_shift_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    margin-top: 35px;
+    margin-right: 35px;
+}
+
+.site_s_cont{
+    width: 180px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid #707070;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'n_bold';
+}
+
+.site_s_cont_main{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 35px;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+.popup_shift_box{
+    width: 695px;
+    height: 196px;
+    background-color: #1C273E;
+    border-radius: 18px;
+    margin: 0 auto;
+    margin-top: 37px;
+}
+
+.popup_shift_box_title{
+    color:white;
+    font-size: 12px;
+    font-family: n_bold;
+}
+
+.popup_shift_box_title_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 25px;
+    position: relative;
+    top: 20px;
+    gap: 25px;
+}
+
+.popup_shift_box_title_sub{
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: right;
+    margin-top: 35px;
+    margin-right: 25px;
+}
+
+.user_m_box{
+    width: 169px;
+    height: 44px;
+    border-radius: 21px;
+    color: white;
+    font-size: 12px;
+    font-family: n_bold;
+    background-color: #283654;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.user_m_box_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+

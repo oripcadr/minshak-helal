@@ -1,0 +1,141 @@
+.worker_popup_header_form {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 37px;
+    gap: 20px;
+}
+
+.forms_header_sub{
+    color:white;
+    font-size: 15px;
+    font-family: n_r;
+}
+
+.calendar_f_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.calendar_f_cont_main{
+    display: flex;
+    flex-direction: row-reverse;
+    gap:20px
+}
+
+.move_form_btn_cont{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.cout_form_box_cont {
+      display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    margin-top: 25px;
+    color: white;
+    font-size: 15px;
+    font-family: 'n_bold';
+    text-align: center;
+    flex-direction: row-reverse;
+    margin-right: 50px;
+}
+
+.cout_form_box{
+    width: 142px;
+    height: 100px;
+    border-radius: 18px;
+    background-color: #283654;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.eq_count_valid_form{
+    width: 93px;
+    height: 40px;
+    border-radius: 22px;
+    border:1px solid white;
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.search_form_input{
+    width: 295px;
+    height: 36px;
+    border-radius: 18px;
+    background-image: url(./assets/search.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-color: #030712;
+    text-align: right;
+    border: 0;
+}
+
+.top_btns_cont_form{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.table_row_forms_m{
+    width: 180px;
+}
+
+.forms_name_b{
+    color: white;
+    font-size: 15px;
+    font-family: n_bold;
+}
+
+.forms_name_r{
+    color: #707070;
+    font-size: 12px;
+    font-family: n_r;
+}
+
+.form_done_staus{
+    width: 56px;
+    height: 23px;
+    border-radius: 12px;
+    background-color: #2ce39725;
+    color: #2CE398;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+    line-height: 23px;
+}
+
+.form_done_grade{
+     color: #2CE398;
+    font-size: 12px;
+    font-family: n_r;
+}
+
+.forms_name_b_f{
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+}
+
+.form_center{
+    text-align: center;
+}
+
+.forms_name_b_f_cont{
+    margin-top: -18px;
+    margin-right: 10px;
+}
+
+.form_places_cont{
+    height: 678px;
+}

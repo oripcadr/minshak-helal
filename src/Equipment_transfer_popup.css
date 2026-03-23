@@ -1,0 +1,128 @@
+.eq_cont_btn_t{
+    width: 430px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #8F2CE3;
+    color: white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 48px;
+}
+
+.eq_icon_1_text_cont{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-family: n_r;
+    flex-direction: row-reverse;
+    gap: 15px;
+    /* width: 300px; */
+    margin-right: 55px;
+    width: 150px;
+    padding-right: 7px;
+    height: 29px;
+    line-height: 29px;
+    align-items: center;
+}
+
+.transfer_more_btn{
+    width: 157px;
+    height: 30px;
+    border: 1px solid #46557E;
+    border-radius: 19px;
+    color: white;
+    font-size: 15px;
+    font-family: n_r;
+    direction: rtl;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 50px;
+}
+
+.transfer_more_btn_main{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.box_t_row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 244px;
+}
+.role_name_select_t {
+    width: 244px;
+    height: 28px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    background-color: #283654;
+    direction: rtl;
+    /* margin-left: 250px; */
+    margin-top: 15px;
+}
+
+.box_t_row_main{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 25px;
+    margin-right: 55px;
+    margin-top: 20px;
+}
+
+.settings_box_subtitle_b_t {
+    color: white;
+    font-size: 12px;
+    font-family: 'n_bold';
+    text-align: right;
+    direction: rtl;
+    /* margin-right: 25px; */
+    margin-top: 25px;
+}
+
+.eq_desc_text_comments {
+    width: 518px;
+    height: 117px;
+    border-radius: 13px;
+    background-color: #101828;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 0;
+}
+
+.eq_type_list_cont{
+    width: 137px;
+    height: 237px;
+    border-radius: 19px;
+    background-color: #101828;
+    border: 1px solid white;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: 'n_r';
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 3px;
+}
+
+.eq_type_list_cont_in{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 13px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.eq_icon_1_text_cont_hover{
+    background-color: #46557E;
+    border-radius: 15px;
+   
+}

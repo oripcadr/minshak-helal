@@ -1,0 +1,153 @@
+.tachmoshet_info_type_cont_long {
+    width: 460px!important;
+    height: 25px;
+    background-color: #101828;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.select_neshek_opt {
+    width: 244px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: n_r;
+    color: white;
+    background-color: #283654;
+    direction: rtl;
+}
+
+.tachmoshet_info_type_cont_main_row_top{
+    margin-top: 20px;
+}
+
+.tachmoshet_info_type_row_date_kalibr{
+    text-align: center;
+    font-family: n_r;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+    display: block;
+    margin-top: 0px;
+    border: 0;
+    width: 244px!important;
+}
+
+.tachmoshet_info_cont_1 {
+    width: 654px;
+    height: 221px;
+    background-color: #283654;
+    border-radius: 18px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.tachmoshet_info_cont_2{
+    width: 654px;
+    height: 172px;
+    background-color: #283654;
+    border-radius: 18px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+
+.tachmoshet_info_cont_3{
+    width: 654px;
+    height: 241px;
+    background-color: #283654;
+    border-radius: 18px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -35px;
+}
+
+.tachmoshet_info_cont_4{
+    width: 654px;
+    height: 144px;
+    background-color: #283654;
+    border-radius: 18px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.tachmoshet_info_type_cont_main_row_1{
+    margin-top: 10px;
+}
+
+.upload_w_neshek_cont_title{
+    font-family: n_bold;
+    color: white;
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.upload_w_neshek_cont{
+    width: 243px;
+    height: 94px;
+    border-radius: 13px;
+    border: 1px solid #707070;
+    padding-top: 20px;
+}
+
+.upload_w_neshek_cont_main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 60px;
+    position: relative;
+    top: 55px;
+}
+
+.mefakeah_sign_cont_neshek{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 28px;
+    gap: 5px;
+    margin-right: 50px;
+    position: relative;
+    top: 52px;
+    text-align: center;
+}
+
+.cert_input_sign_text_neshek {
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    margin-right: 16px;
+    text-align: center;
+    width: 140px;
+}
+
+.white-calendar::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Makes icon white */
+    cursor: pointer;
+}
+
+.img_uploaded_name{
+    color: white;
+    font-size: 14px;
+    font-family: 'n_r';
+    text-align: center;
+}
+
+.sign_popup_cont_eq_neshek {
+    width: 321px;
+    height: 215px;
+    background-color: #101828;
+    border-radius: 13px;
+    box-shadow: 1px 1px 10px #FFFFFF;
+    position: absolute;
+    margin-top: 14px;
+    z-index: 55;
+    margin-left: 300px;
+}

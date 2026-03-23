@@ -1,0 +1,229 @@
+.eq_order_popup_cont_full {
+    width: 1109px;
+    height: 2364px;
+    border-radius: 58px;
+    box-shadow: 1px 1px 10px #8F2CE3;
+    top: 0px;
+    position: absolute;
+    transform: translate(-50%, 10px);
+    left: 50%;
+    background-color: #283654;
+}
+
+
+.layout_full{
+    background-color: #111c31c2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+}
+
+.event_report_cont_full{
+        width: 951px;
+    height: 252px;
+    border-radius: 20px;
+    border: 1px solid #46557E;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.rep_select{
+    width: 244px;
+    height: 28px;
+    border-radius: 20px;
+    border:1px solid white ;
+    background-color: #283654;
+    color: white;
+    direction: rtl; 
+}
+
+.time_input{
+    width: 122px;
+    height: 28px;
+    border-radius: 20px;
+    background-color: #111C31;
+    color: white;
+    border: 0;
+    text-align: center;
+}
+
+.step_1{
+    width: 64px;
+    height: 28px;
+    background-color: #2ae39840;
+    color: #2AE398;
+    font-size: 12px;
+    font-family: n_r;
+    border-radius: 14px;
+    text-align: center;
+    line-height: 28px;  
+}
+
+.step_2{
+    width: 64px;
+    height: 28px;
+    background-color: #e3b92c38;
+    color: #E3B92C;
+    font-size: 12px;
+    font-family: n_r;
+    border-radius: 14px;
+    text-align: center;
+    line-height: 28px;  
+}
+
+.step_3{
+    width: 64px;
+    height: 28px;
+    background-color: #e32d7c47;
+    color: #E32D7C;
+    font-size: 12px;
+    font-family: n_r;
+    border-radius: 14px;
+    text-align: center;
+    line-height: 28px;  
+}
+
+.steps_cont{
+    display: flex;
+    gap: 10px;
+}
+
+.event_report_cont_full_2{
+    width: 951px;
+    height: 468px;
+    border-radius: 20px;
+    border: 1px solid #46557E;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.report_desc_cont_full{
+    width: 849px;
+    height: 138px;
+    border-radius: 20px;
+    background-color: #111C31;
+    color: white;
+    font-family: n_r;
+    border: 0;
+    text-align: right;
+    padding: 10px;
+    direction: rtl;
+}
+
+.event_report_cont_full_3{
+    width: 951px;
+    height: 837px;
+    border-radius: 20px;
+    border: 1px solid #46557E;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.search_meavteah{
+    width: 286px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #030712;
+    color:white;
+    font-size: 12px;
+    font-family: n_r;
+    background-image: url(./assets/search.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    text-align: right;
+    border: 0;
+}
+
+.m_u_text{
+    color:white;
+    font-size: 12px;
+    font-family: n_bold;
+    text-align: center;
+}
+
+.m_u_cont{
+    width: 157px;
+    height: 44px;
+    border-radius: 21px;
+    background-color: #1C273E;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 12px;
+    gap: 10px;
+}
+
+.m_u_cont_main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.report_to_btn_l{
+    width: 273px;
+}
+
+.event_report_cont_full_4{
+    width: 951px;
+    height: 322px;
+    border-radius: 20px;
+    border: 1px solid #46557E;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.upload_img_text{
+    color:white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+}
+
+.upload_img_cont{
+    width: 283px;
+    height: 147px;
+    border-radius: 21px;
+    background-color: #1C273E;
+}
+
+.upload_img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 45px;
+    margin-bottom: 12px;
+}
+
+.file_d_text{
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    margin-right: 20px;
+    margin-left: 336px;
+}
+
+.file_d_cont{
+       width: 577px;
+    height: 34px;
+    background-color: #46557E;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5px;
+}
+.file_d_cont_2{
+    background-color: unset;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.upload_img_cont_main{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+    margin-right: 14px;
+    gap: 35px;
+}

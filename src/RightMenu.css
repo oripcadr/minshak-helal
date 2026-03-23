@@ -1,0 +1,44 @@
+.RightMenu_main_cont{
+    width: 225px;
+    height: 1150px;
+    background-color: #101828;
+    float: right;
+    font-family: n_bold;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    top: -76px;
+    position: relative;
+}
+
+
+.RightMenu_main_line{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-right: 55px;
+
+    width: 170px;
+    height: 39px;
+    margin-left: 20px;
+    border-radius: 12px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+
+.RightMenu_main_line_selected{
+    background-color: #902FEC;
+}
+
+.logo_img{
+    margin-top: 200px;
+}
+
+.logout_icon{
+    margin-right: -3px;
+    height: 18px;
+}

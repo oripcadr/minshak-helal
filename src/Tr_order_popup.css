@@ -1,0 +1,53 @@
+.meavteah_box{
+    width: 240px;
+    height: 66px;
+    border-radius: 31px;
+    background-color: #101828;
+    position: relative;
+    padding-right: 54px;
+}
+
+.eq_selct_1{
+    position: absolute;
+    right: 10px;
+    top: 22px;
+}
+
+.user_n_2_img{
+    position: absolute;
+    right: 35px;
+    top: 14px;
+}
+
+.supp_box_cont_t {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    gap: 25px;
+}
+
+.eq_tb_in_select{
+    width: 244px;
+    height: 28px;
+    border-radius: 20px;
+    color:white;
+    background-color: #283654;
+    direction: rtl;
+    border:1px solid white
+}
+
+.table_row_tr{
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+}

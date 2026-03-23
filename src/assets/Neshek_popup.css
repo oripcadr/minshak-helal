@@ -1,0 +1,222 @@
+.user_b_text_submain_n{
+    color: white;
+    font-size: 15px;
+    font-family: n_r;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+    direction: rtl;
+}
+
+.valid_icon{
+    margin-left: 10px;
+}
+
+.create_neshek_id_btn{
+    width: 176px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #283654;
+    color:white;
+    font-size: 15px;
+    font-family: n_bold;
+    background-image: url(./assets/pdf_icon.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    text-align: center;
+    line-height: 48px;
+}
+
+.details_cont_h_b{
+    font-size: 20px!important;
+    font-family: n_bold!important;
+    margin-top: 0px;
+}
+
+
+.upload_doc_btn{
+    width: 109px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid #46557E;
+    color: white;
+    font-family: n_r;
+    font-size: 12px;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    left: 58px;
+    top: 10px;
+}
+
+
+.warning_msg{
+    color: #E32D7C;
+    font-size: 12px;
+    font-family: n_bold;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+.worker_popup_top_area_right_neshek{
+    width: 660px;
+    height: 346px;
+    overflow: auto;
+}
+
+.neshek_doc_box_cont{
+    width: 291px;
+    height: 68px;
+    border-radius: 18px;
+    background-color: #46567E;
+    position: relative;
+}
+
+.more_icon_neshek_doc_box{
+    position: absolute;
+    right: 15px;
+    top: 25px;
+}
+
+.neshek_doc_box_title{
+    color: white;
+    font-size: 12px;
+    font-family: n_bold;
+    text-align: right;
+    margin-right: 30px;
+    position: relative;
+    top: 10px;  
+}
+
+.neshek_doc_box_title_sub{
+    font-size: 12px;
+    font-family: n_r;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.upload_file_btn{
+    width: 117px;
+    height: 21px;
+    background-color: #BCC7E6;
+    border-radius: 14px;
+    color:#283654;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+    line-height: 21px;
+    background-image: url(./assets/upload_icon.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.neshek_doc_box_cont_main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.worker_popup_top_area_right_neshek_s{
+    width: 660px;
+    height: 115px;
+}
+
+.neshek_s_title{
+    color: white;
+    font-size: 20px;
+    font-family: n_bold;
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.update_count_btn{
+    width: 117px;
+    height: 21px;
+    border-radius: 14px;
+    background-color: #BCC7E6;
+    color: #283654;
+    font-size: 12px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 21px;
+    position: absolute;
+    top: 55px;
+    left: 290px;
+}
+
+.select_period_h{
+    background-color: #46557E;
+    text-align: center;
+    background-image: url(./assets/filter.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+
+.export_btn_h{
+    border: 2px solid #46557E;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+.btn_cont_top{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 45px;
+    margin-right: 50px;
+    gap: 10px;
+}
+
+.history_info_title{
+    color:white;
+    font-size: 12px;
+    font-family: n_bold;
+    width: 120px;
+}
+
+.history_info_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.history_info_title_r{
+    font-family: n_r;
+}
+
+.status_cont{
+    display: flex;
+    width: 92px;
+    height: 27px;
+    border: 1px solid #46557E;
+    border-radius: 14px;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 10px;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.status_opt_cont_h{
+    background-color: #283654;
+    position: absolute;
+    left:4px;
+}

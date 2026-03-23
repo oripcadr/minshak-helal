@@ -1,0 +1,74 @@
+.right_part_cont_bottom_p_forms{
+    width: 1431px;
+}
+
+.btn_exp_cont_forms{
+    margin-left: 820px;
+}
+
+.p_box_action_neshek_forms{
+    margin-top: 12px;
+}
+
+.forms_send_btn{
+    width: 85px;
+    height: 23px;
+    border-radius: 12px;
+    background-color: #8F2CE3;
+    color:white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+    line-height: 23px;
+    background-image: url(./assets/send_icon.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.forms_copy_btn{
+    width: 85px;
+    height: 23px;
+    border-radius: 12px;
+    border:1px solid white;
+    color:white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+    line-height: 23px;
+    background-image: url(./assets/clone_icon.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.forms_edit_btn{
+    width: 85px;
+    height: 23px;
+    border-radius: 12px;
+    border:1px solid white;
+    color:white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+    line-height: 23px;
+    background-image: url(./assets/edit_f.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.table_row_forms_long{
+    width: 250px;
+}
+
+.table_row_forms_ex_long{
+    width: 400px;
+}
+
+.forms_del_btn{
+    width: 42px;
+    height: 23px;
+    border-radius: 12px;
+    background-color:#46557E;
+    background-image: url(./assets/del_f.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}

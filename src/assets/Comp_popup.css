@@ -1,0 +1,170 @@
+.user_b_text_main_r{
+    color:white;
+    font-size: 20px;
+    font-family: n_r;
+}
+
+.worker_popup_top_area_right_l{
+    width: 675px;
+    height: 165px;
+}
+
+.worker_popup_top_area_right_el{
+    width: 675px;
+    height: 207px;
+}
+
+.details_cont_b_cont{
+background-color: #101828;
+    width: 147px;
+    height: 25px;
+    border-radius: 13px;
+    line-height: 25px;
+    padding-right: 10px;
+}
+
+.comp_cols_cont{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.details_cont_r_l{
+    width: 209px;
+    font-size: 12px;
+    font-family: n_r;
+    color:white
+}
+
+.checkbox_com_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    gap: 10px;
+}
+
+.comp_cols_cont_checkbox{
+    margin-top: 50px;
+    margin-right: 47px;
+}
+
+.details_cont_h{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+
+.details_cont_h_main{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 35px;
+    margin-right: 27px;
+}
+
+.worker_popup_top_area_right_sign{
+    width: 675px;
+    height: 130px;
+}
+
+.bottom_btns_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.create_sert_btn{
+    width: 186px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: #902FEC;
+    color:white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px;
+}
+
+.create_sert_btn{
+    width: 186px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: #902FEC;
+    color:white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px;
+}
+
+.save_sert_btn{
+    width: 186px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: transparent;
+    color:white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px; 
+    border:1px solid white
+}
+
+.comp_search_cont{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 25px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.worker_popup_cont_comp{
+    width: 503px;
+}
+
+.comp_row_box_cont{
+    width: 403px;
+    height: 65px;
+    border-radius: 18px;
+    background-color: #46557E;
+    margin: 0 auto;
+    margin-top: 25px;
+    position: relative;
+}
+
+.more_icon_comp{
+    position: absolute;
+    top:24px;
+    right:20px
+}
+
+.comp_row_box_title{
+    font-size: 12px;
+    font-family: n_bold;
+    color: white;
+    text-align: right;
+    margin-right: 40px;
+    position: relative;
+    top: 10px;
+}
+
+.comp_row_box_subtitle_cont{
+    display: flex;
+   font-size: 10px;
+    font-family: n_r;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    margin-top: 18px;
+    margin-right: 40px;
+}
+
+
+.refresh_icon{
+    position: absolute;
+    top: 17px;
+    left: 20px;
+}

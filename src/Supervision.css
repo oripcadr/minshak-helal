@@ -1,0 +1,110 @@
+.add_supervision_box{
+    width: 250px;
+    height: 129px;
+    border-radius: 18px;
+    border: 1px solid #283653;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add_doc{
+    margin-top: 20px;
+}
+
+.user_add_title_add_doc{
+    margin-top: 10px;
+}
+
+.degree{
+    width: 39px;
+    height: 23px;
+    border-radius: 12px;
+    background-color: #2ce39854;
+    color: #2CE398;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+    line-height: 23px;
+}
+
+.status{
+    width: 56px;
+    height: 23px;
+    border-radius: 12px;
+    background-color: #2ce39854;
+    color: #2CE398;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+    line-height: 23px;
+}
+
+.def_cont{
+    width: 478px;
+    height: 134px;
+    border-radius: 21px;
+    background-color: #283654;
+    border-radius: 21px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.def_cont_top{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    font-family: 'n_r';
+    gap: 10px;
+    position: relative;
+    top: 10px;
+    margin-right: 15px;
+}
+
+.def_cont_top_date{
+    margin-right: 220px;
+}
+
+.def_cont_text{
+    color: white;
+    font-size: 15px;
+    font-family: 'n_r';
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.def_cont_btn{
+    width: 105px;
+    height: 30px;
+    border-radius: 18px;
+    background-color: #7070706b;
+    color: white;
+    font-size: 12px;
+    font-family: 'n_r';
+    text-align: center;
+    line-height: 30px;
+}
+
+.def_cont_btn_main{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 13px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.def_cont_btn_closed{
+    background-color: #174B44;
+    color:#2CE398;
+    background-image: url(./assets/valid_icon.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    font-family: n_bold;
+}
+
+
+.left_part_third_cont_sup{
+    height: 904px;
+}

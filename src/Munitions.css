@@ -1,0 +1,108 @@
+.main_area_top_cont{
+    width: 1520px;
+    height: 228px;
+    background-color: #101828;
+    border-radius: 27px;
+}
+
+.count_tahmoshet_box{
+    width: 140px;
+    height: 129px;
+    border-radius: 18px;
+    background-color: #283654;
+}
+
+.count_tahmoshet_box_title{
+    color:white;
+    font-size: 12px;
+    font-family: n_r;
+}
+
+.count_tahmoshet_box_title_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+.count_tahmoshet_box_select{
+    width: 85px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid white;
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 36px;
+    background-image: url(./assets/arrow_down.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    margin-right: 15px;
+}
+
+.count_tahmoshet_box_count{
+    color: white;
+    font-size: 25px;
+    font-family: n_r;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.count_tahmoshet_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.tahmoshet_list_cont{
+    width: 1520px;
+    height: 652px;
+    background-color: #101828;
+    border-radius: 27px;
+    margin-top: 40px;
+}
+
+
+.add_new_btn{
+    width: 221px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #8F2CE3;
+    color: white;
+     font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.perchase_cont{
+     width: 56px;
+    height: 23px;
+    border-radius: 12px;
+    background-color: #2ce39854;
+    color: #2CE398;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: center;
+    line-height: 23px;
+}
+
+.tachmoshet_info_type_title_t{
+    width: 58px;
+}
+
+.more_w_p{
+    cursor: pointer;
+}
+
+.table_header_cont_tahmoshet{
+    cursor: pointer;
+}

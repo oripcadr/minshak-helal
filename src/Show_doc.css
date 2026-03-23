@@ -1,0 +1,41 @@
+.Show_doc_cont{
+   width: 769px;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #101828;
+    position: absolute;
+    top: 0;
+    box-shadow: 1px 1px 10px;
+}
+
+.file_disp_area{
+    width: 743px;
+    height: 1000px;
+    border-radius: 30px;
+    /* box-shadow: 1px 1px 10px #5dc1ff78; */
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.file_display{
+    position: absolute;
+    left: 0;
+    z-index: 555;
+}
+
+.file_display_close{
+    position: absolute;
+    right: 52px;
+    cursor: pointer;
+}
+
+
+.disp_prev_img{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 125px;
+}
+

@@ -1,0 +1,120 @@
+.text_sub_tachmoshet{
+    color:white;
+    font-size: 15px;
+    font-family: n_r;
+}
+
+.purchase_popup{
+    width: 530px;
+}
+
+.tachmoshet_info_cont_p{
+    width: 451px;
+}
+
+.tachmoshet_info_type_row_sign{
+    width: 105px;
+}
+
+.perchase_cont_p{
+    position: relative;
+    top: 50px;
+    left: 348px;
+}
+
+.p_count{
+    font-size: 30px;
+    font-family: n_bold;
+    color: white;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.p_count_text{
+    font-size: 12px;
+    font-family: n_bold;
+    color: white;
+}
+
+.p_count_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-top: 60px;
+    align-items: flex-end;
+}
+
+.worker_popup_opt_p{
+    margin-right: 50px;
+}
+
+.perchase_cont_time{
+    font-size: 12px;
+    font-family: n_r;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.p_details_subtitle{
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: right;
+    margin-right: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.p_details_subtitle_b{
+    color: white;
+    font-size: 12px;
+    font-family: n_bold;
+    text-align: right;
+    margin-right: 50px;
+    position: relative;
+    top: 62px;
+    direction: rtl;
+    margin-left: 20px;
+}
+
+.p_details_subtitle_1{
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: right;
+    margin-right: 50px;
+    position: relative;
+    top: 80px;
+}
+
+.download_doc_cont{
+   width: 215px;
+    height: 30px;
+    border-radius: 21px;
+    background-color: #1C273E;
+    color: white;
+    text-align: right;
+    font-size: 12px;
+    font-family: n_r;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
+.download_doc_cont_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 97px;
+}
+

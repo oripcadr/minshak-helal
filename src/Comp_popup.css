@@ -1,0 +1,287 @@
+.user_b_text_main_r{
+    color:white;
+    font-size: 20px;
+    font-family: n_r;
+}
+
+.worker_popup_top_area_right_l{
+    width: 675px;
+    height: 165px;
+}
+
+.worker_popup_top_area_right_el{
+    width: 675px;
+    height: 207px;
+}
+
+.details_cont_b_cont{
+    background-color: #101828;
+    width: 147px;
+    height: 25px;
+    border-radius: 13px;
+    line-height: 25px;
+    padding-right: 10px;
+    border: 0;
+}
+
+
+.edit_sign_btn{
+    width: 117px;
+    height: 24px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-image: url(/src/assets/pencil.png);
+    background-repeat: no-repeat;
+    background-position: 94%;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    font-family: 'n_r';
+    line-height: 24px;
+    text-align: center;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.comp_cols_cont{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.details_cont_r_l{
+    width: 209px;
+    font-size: 12px;
+    font-family: n_r;
+    color:white
+}
+
+.checkbox_com_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    gap: 10px;
+}
+
+.comp_cols_cont_checkbox{
+    margin-top: 50px;
+    margin-right: 47px;
+}
+
+.details_cont_h{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+
+.details_cont_h_main{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 35px;
+    margin-right: 27px;
+}
+
+.worker_popup_top_area_right_sign{
+    width: 675px;
+    height: 130px;
+}
+
+.bottom_btns_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.create_sert_btn{
+    width: 186px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: #902FEC;
+    color:white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px;
+    cursor: pointer;
+}
+
+.create_sert_btn{
+    width: 186px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: #902FEC;
+    color:white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px;
+}
+
+.save_sert_btn{
+    width: 186px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: transparent;
+    color:white;
+    font-size: 15px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px; 
+    border:1px solid white;
+    cursor: pointer;
+}
+
+.comp_search_cont{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 25px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.worker_popup_cont_comp{
+    width: 503px;
+}
+
+.comp_row_box_cont{
+    width: 403px;
+    height: 65px;
+    border-radius: 18px;
+    background-color: #46557E;
+    margin: 0 auto;
+    margin-top: 25px;
+    position: relative;
+}
+
+.more_icon_comp{
+    position: absolute;
+    top:24px;
+    right:20px
+}
+
+.comp_row_box_title{
+    font-size: 12px;
+    font-family: n_bold;
+    color: white;
+    text-align: right;
+    margin-right: 40px;
+    position: relative;
+    top: 10px;
+}
+
+.comp_row_box_subtitle_cont{
+    display: flex;
+   font-size: 10px;
+    font-family: n_r;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    margin-top: 18px;
+    margin-right: 40px;
+}
+
+
+.refresh_icon{
+    position: absolute;
+    top: 17px;
+    left: 20px;
+}
+
+.sign_popup_cont{
+    width: 321px;
+    height: 215px;
+    background-color: #101828;
+    border-radius: 13px;
+    box-shadow: 1px 1px 10px #FFFFFF;
+    position: absolute;
+    margin-top: -185px;
+}
+
+.sign_area_cont{
+    width: 300px;
+    height: 138px;
+    border-radius: 12px;
+    border: 1px solid #46557E;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.auto_sign{
+    width: 129px;
+    height: 39px;
+    background-color: #ffffff52;
+    border-radius: 20px;
+    color:#101828;
+    font-size: 12px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px;
+}
+
+.save_sign{
+    width: 98px;
+    height: 39px;
+    background-color: white;
+    border-radius: 20px;
+    color:#101828;
+    font-size: 12px;
+    font-family: n_bold;
+    text-align: center;
+    line-height: 39px;
+}
+
+.save_sign_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    gap: 10px;
+}
+
+.sign_popup_cont_2{
+    margin-right: 205px;
+}
+
+.sign_popup_cont_1{
+    margin-right: 353px;
+}
+
+.trash_w{
+    cursor: pointer;
+}
+
+.sign_1_img{
+    height: 25px;
+}
+
+.upload_doc_popup_cont_site_top{
+    top: 183px;
+}
+
+.more_options_cont_doc{
+    color: white;
+    font-size: 12px;
+    font-family: n_r;
+    text-align: right;
+    width: 100px;
+    height: 108px;
+    background-color: #46557E;
+    border-radius: 11px;
+    padding-top: 5px;
+    position: absolute;
+    right: 0;
+    margin-top: -14px;
+    box-shadow: 1px 1px 10px black;
+    z-index: 5;
+}
+
+.print_icon_comp{
+    width: 10px;
+}
