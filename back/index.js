@@ -2473,6 +2473,97 @@ app.post("/upload_file", function (req, res) {
   res.send({ fileName: fileName });
 });
 
+// PATH - HELAL
+
+app.post("/save_new_path", function (req, res) {
+  // connect to your database
+  sql.connect(config, function (err) {
+    if (err) console.log(err);
+
+    var request = new sql.Request();
+
+    let sql_q_2 =
+      "insert into paths (name,site_id,expected_average_time,type) values ('" +
+      req.body.name +
+      "','" +
+      req.body.site_id +
+      "','" +
+      req.body.expected_average_time +
+      "','" +
+      req.body.type +
+      "')";
+
+    // query to the database and get the records
+    request.query(sql_q_2, function (err, recordset3) {
+      // send records as a response
+      res.send(recordset3);
+    });
+  });
+});
+
+app.get("/get_path_path", function (req, res) {
+  // connect to your database
+  sql.connect(config, function (err) {
+    if (err) console.log(err);
+
+    var request = new sql.Request();
+
+    //console.log(req.body.sign_2);
+
+    let sql_q_2 = "select * from paths ";
+
+    //console.log(sql_q_2);
+    // query to the database and get the records
+    request.query(sql_q_2, function (err, recordset3) {
+      // send records as a response
+      res.send(recordset3);
+    });
+  });
+});
+
+app.post("/get_path_by_siteid", function (req, res) {
+  // connect to your database
+  sql.connect(config, function (err) {
+    if (err) console.log(err);
+
+    var request = new sql.Request();
+
+    //console.log(req.body.sign_2);
+
+    let sql_q_2 =
+      "select * from paths where site_id='" + req.body.site_id + "'";
+
+    //console.log(sql_q_2);
+    // query to the database and get the records
+    request.query(sql_q_2, function (err, recordset3) {
+      // send records as a response
+      res.send(recordset3);
+    });
+  });
+});
+
+// PATROLS - HELAL
+
+app.get("/get_all_patrols", function (req, res) {
+  // connect to your database
+  sql.connect(config, function (err) {
+    if (err) console.log(err);
+
+    var request = new sql.Request();
+
+    //console.log(req.body.sign_2);
+
+    let sql_q_2 = "select * from patrols ";
+
+    //console.log(sql_q_2);
+    // query to the database and get the records
+    request.query(sql_q_2, function (err, recordset3) {
+      // send records as a response
+      res.send(recordset3);
+    });
+  });
+});
+
 setInterval(function () {
   // sync_monday_products();
 }, 30000);

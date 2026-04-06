@@ -74,65 +74,55 @@ function Dashboard() {
     const [doc_date_filter, set_doc_date_filter] = useState<any>([]);
 
     useEffect(() => {
-        get_all_workers();
-        get_all_sites();
-        get_roles();
+      get_all_workers();
+      get_all_sites();
+      get_roles();
     }, []);
-    
-    function get_roles(){
 
+    function get_roles() {
       let payload = new FormData();
-    
-      axios({
-        method: 'post',
-        url: globalThis.app.current+'/get_roles',
-        data: payload,
-        headers: { "Content-Type": "multipart/form-data" }, 
-      }).then(res => {
 
-        if (res.data.recordset.length>0){
-           set_roles(res.data.recordset);
+      axios({
+        method: "post",
+        url: globalThis.app.current + "/get_roles",
+        data: payload,
+        headers: { "Content-Type": "multipart/form-data" },
+      }).then((res) => {
+        if (res.data.recordset.length > 0) {
+          set_roles(res.data.recordset);
         }
-      })
-        
+      });
     }
 
-
-    function get_all_sites(){
-
+    function get_all_sites() {
       let payload = new FormData();
-    
-      axios({
-        method: 'post',
-        url: globalThis.app.current+'/get_all_sites',
-        data: payload,
-        headers: { "Content-Type": "multipart/form-data" }, 
-      }).then(res => {
 
-        if (res.data.recordset.length>0){
-           set_sites(res.data.recordset);
-           set_sites_original(res.data.recordset);
+      axios({
+        method: "post",
+        url: globalThis.app.current + "/get_all_sites",
+        data: payload,
+        headers: { "Content-Type": "multipart/form-data" },
+      }).then((res) => {
+        if (res.data.recordset.length > 0) {
+          set_sites(res.data.recordset);
+          set_sites_original(res.data.recordset);
         }
-      })
-
+      });
     }
-        
-    function get_all_workers(){
-        let payload = new FormData();
-    
+
+    function get_all_workers() {
+      let payload = new FormData();
+
       axios({
-        method: 'post',
-        url: globalThis.app.current+'/get_all_workers',
+        method: "post",
+        url: globalThis.app.current + "/get_all_workers",
         data: payload,
-        headers: { "Content-Type": "multipart/form-data" }, 
-      }).then(res => {
-
-        if (res.data.recordset.length>0){
-           set_workers(res.data.recordset);
-           set_workers_original(res.data.recordset);
-
-        } 
-          
+        headers: { "Content-Type": "multipart/form-data" },
+      }).then((res) => {
+        if (res.data.recordset.length > 0) {
+          set_workers(res.data.recordset);
+          set_workers_original(res.data.recordset);
+        }
       });
     }
 
